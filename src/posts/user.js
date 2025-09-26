@@ -15,10 +15,11 @@ const utils = require('../utils');
 
 module.exports = function (Posts) {
 	Posts.getUserInfoForPosts = async function (uids, uid) {
-		const [userData, userSettings, signatureUids] = await Promise.all([
+		const [userData, userSettings, signatureUids, isViewerAdmin] = await Promise.all([
 			getUserData(uids, uid),
 			user.getMultipleUserSettings(uids),
 			meta.config.disableSignatures ? [] : privileges.categories.filterUids('signature', 0, uids),
+			user.isAdministrator(uid),
 		]);
 		const uidsSignatureSet = new Set(signatureUids.map(uid => parseInt(uid, 10)));
 		const groupsMap = await getGroupsMap(userData);
@@ -29,6 +30,15 @@ module.exports = function (Posts) {
 			userData.selectedGroups = [];
 
 			if (meta.config.hideFullname) {
+				userData.fullname = undefined;
+			}
+
+			// Handle anonymous posting - show "Anonymous" for non-admins if user has anonymous posting enabled
+			if (!isViewerAdmin && userSettings[index].anonymousPosting) {
+				userData.username = 'Anonymous';
+				userData.displayname = 'Anonymous';
+				userData.userslug = '';
+				userData.picture = '';
 				userData.fullname = undefined;
 			}
 		});

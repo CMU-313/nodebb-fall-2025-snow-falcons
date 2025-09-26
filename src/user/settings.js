@@ -83,6 +83,7 @@ module.exports = function (User) {
 		settings.homePageRoute = validator.escape(String(settings.homePageRoute || '')).replace(/&#x2F;/g, '/');
 		settings.scrollToMyPost = parseInt(getSetting(settings, 'scrollToMyPost', 1), 10) === 1;
 		settings.categoryWatchState = getSetting(settings, 'categoryWatchState', 'notwatching');
+		settings.anonymousPosting = parseInt(getSetting(settings, 'anonymousPosting', 0), 10) === 1;
 
 		const notificationTypes = await notifications.getAllNotificationTypes();
 		notificationTypes.forEach((notificationType) => {
@@ -165,6 +166,7 @@ module.exports = function (User) {
 			categoryWatchState: data.categoryWatchState,
 			categoryTopicSort: data.categoryTopicSort,
 			topicPostSort: data.topicPostSort,
+			anonymousPosting: data.anonymousPosting,
 			chatAllowList: data.chatAllowList,
 			chatDenyList: data.chatDenyList,
 		};

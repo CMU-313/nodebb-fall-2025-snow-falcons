@@ -6,6 +6,7 @@ const path = require('path');
 const nconf = require('nconf');
 const validator = require('validator');
 const jwt = require('jsonwebtoken');
+const async = require('async');
 const { setTimeout } = require('node:timers/promises');
 
 const db = require('./mocks/databasemock');
@@ -2734,6 +2735,86 @@ describe('User', () => {
 		it('subfolder tests', () => {
 			files.forEach((filePath) => {
 				require(filePath);
+			});
+		});
+	});
+
+	describe('Anonymous Posting', () => {
+		let anonymousUser;
+		let adminUser;
+		let regularUser;
+
+		before((done) => {
+			async.series([
+				(next) => {
+					User.create({ username: 'anonymoususer' }, (err, uid) => {
+						anonymousUser = uid;
+						next(err);
+					});
+				},
+				(next) => {
+					User.create({ username: 'adminuser' }, (err, uid) => {
+						adminUser = uid;
+						next(err);
+					});
+				},
+				(next) => {
+					User.create({ username: 'regularuser' }, (err, uid) => {
+						regularUser = uid;
+						next(err);
+					});
+				},
+				(next) => {
+					groups.join('administrators', adminUser, next);
+				},
+			], done);
+		});
+
+		it('should show anonymous names for non-admins when anonymous posting is enabled', (done) => {
+			// Enable anonymous posting for the user
+			User.saveSettings(anonymousUser, { 
+				anonymousPosting: 1,
+				postsPerPage: 20,
+				topicsPerPage: 20,
+			}, (err) => {
+				assert.ifError(err);
+				
+				// Test that non-admin sees anonymous name
+				Posts.getUserInfoForPosts([anonymousUser], regularUser, (err, userData) => {
+					assert.ifError(err);
+					assert.equal(userData[0].username, 'Anonymous');
+					assert.equal(userData[0].displayname, 'Anonymous');
+					assert.equal(userData[0].userslug, '');
+					
+					// Test that admin sees real name
+					Posts.getUserInfoForPosts([anonymousUser], adminUser, (err, userData) => {
+						assert.ifError(err);
+						assert.equal(userData[0].username, 'anonymoususer');
+						assert.equal(userData[0].displayname, 'anonymoususer');
+						assert.notEqual(userData[0].userslug, '');
+						done();
+					});
+				});
+			});
+		});
+
+		it('should show real names when anonymous posting is disabled', (done) => {
+			// Disable anonymous posting for the user
+			User.saveSettings(anonymousUser, { 
+				anonymousPosting: 0,
+				postsPerPage: 20,
+				topicsPerPage: 20,
+			}, (err) => {
+				assert.ifError(err);
+				
+				// Test that non-admin sees real name
+				Posts.getUserInfoForPosts([anonymousUser], regularUser, (err, userData) => {
+					assert.ifError(err);
+					assert.equal(userData[0].username, 'anonymoususer');
+					assert.equal(userData[0].displayname, 'anonymoususer');
+					assert.notEqual(userData[0].userslug, '');
+					done();
+				});
 			});
 		});
 	});

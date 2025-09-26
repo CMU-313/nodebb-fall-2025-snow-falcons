@@ -138,6 +138,9 @@ Settings:
     categoryWatchState:
       type: string
       description: Default watch state for categories
+    anonymousPosting:
+      type: boolean
+      description: Show username as "Anonymous" to non-admin users when posting
     notificationType_group-request-membership:
       type: string
       description: Notification type for group membership requests
