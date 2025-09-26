@@ -22,6 +22,15 @@ module.exports = function () {
 	setupApiRoute(router, 'put', '/:pid/state', middlewares, controllers.write.posts.restore);
 	setupApiRoute(router, 'delete', '/:pid/state', middlewares, controllers.write.posts.delete);
 
+	//send a "put" request/update state on "anonymous" flag of a post
+	setupApiRoute(router, 'put', '/:pid/anonymous', [
+		//ensures user is logged in & anonymous field exists in this post
+		middleware.ensureLoggedIn,
+		middleware.checkRequired.bind(null, ['anonymous']),
+		//call new setAnonymous function
+	], controllers.write.posts.setAnonymous);
+    
+
 	setupApiRoute(router, 'put', '/:pid/move', [...middlewares, middleware.checkRequired.bind(null, ['tid'])], controllers.write.posts.move);
 
 	setupApiRoute(router, 'put', '/:pid/vote', [...middlewares, middleware.checkRequired.bind(null, ['delta'])], controllers.write.posts.vote);
