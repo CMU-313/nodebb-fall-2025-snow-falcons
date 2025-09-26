@@ -53,6 +53,7 @@ exports.post = async function (req, res) {
 		//0: not anonymous
 		anonymous: body.anonymous ? 1 : 0,
 	};
+	
 	req.body.noscript = 'true';
 
 	if (!data.content) {

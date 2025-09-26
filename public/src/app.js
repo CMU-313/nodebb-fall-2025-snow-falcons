@@ -17,6 +17,9 @@ require('./sockets');
 require('./overrides');
 require('./ajaxify');
 
+// Force load compose module for testing
+require('./client/compose');
+
 app = window.app || {};
 
 Object.defineProperty(app, 'isFocused', {
