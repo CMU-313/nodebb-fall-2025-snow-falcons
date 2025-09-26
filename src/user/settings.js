@@ -166,6 +166,7 @@ module.exports = function (User) {
 			categoryWatchState: data.categoryWatchState,
 			categoryTopicSort: data.categoryTopicSort,
 			topicPostSort: data.topicPostSort,
+			anonymousPosting: data.anonymousPosting,
 			chatAllowList: data.chatAllowList,
 			chatDenyList: data.chatDenyList,
 		};

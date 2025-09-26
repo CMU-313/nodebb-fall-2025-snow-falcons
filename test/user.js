@@ -2772,7 +2772,11 @@ describe('User', () => {
 
 		it('should show anonymous names for non-admins when anonymous posting is enabled', (done) => {
 			// Enable anonymous posting for the user
-			User.saveSettings(anonymousUser, { anonymousPosting: 1 }, (err) => {
+			User.saveSettings(anonymousUser, { 
+				anonymousPosting: 1,
+				postsPerPage: 20,
+				topicsPerPage: 20
+			}, (err) => {
 				assert.ifError(err);
 				
 				// Test that non-admin sees anonymous name
@@ -2796,7 +2800,11 @@ describe('User', () => {
 
 		it('should show real names when anonymous posting is disabled', (done) => {
 			// Disable anonymous posting for the user
-			User.saveSettings(anonymousUser, { anonymousPosting: 0 }, (err) => {
+			User.saveSettings(anonymousUser, { 
+				anonymousPosting: 0,
+				postsPerPage: 20,
+				topicsPerPage: 20
+			}, (err) => {
 				assert.ifError(err);
 				
 				// Test that non-admin sees real name
