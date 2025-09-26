@@ -2775,7 +2775,7 @@ describe('User', () => {
 			User.saveSettings(anonymousUser, { 
 				anonymousPosting: 1,
 				postsPerPage: 20,
-				topicsPerPage: 20
+				topicsPerPage: 20,
 			}, (err) => {
 				assert.ifError(err);
 				
@@ -2803,7 +2803,7 @@ describe('User', () => {
 			User.saveSettings(anonymousUser, { 
 				anonymousPosting: 0,
 				postsPerPage: 20,
-				topicsPerPage: 20
+				topicsPerPage: 20,
 			}, (err) => {
 				assert.ifError(err);
 				
