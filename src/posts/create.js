@@ -39,6 +39,11 @@ module.exports = function (Posts) {
 		if (data.handle && !parseInt(uid, 10)) {
 			postData.handle = data.handle;
 		}
+		//if there exists an anonymous flag for post
+		if (typeof data.anonymous !== 'undefined') {
+			//set the postDatavalue to 1 if its anonymous, 0 if not
+			postData.anonymous = data.anonymous ? 1 : 0;
+		}
 		if (_activitypub) {
 			if (_activitypub.url) {
 				postData.url = _activitypub.url;
