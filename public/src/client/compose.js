@@ -42,7 +42,7 @@ define('forum/compose', ['hooks'], function (hooks) {
 
 	// Intercept v3 API requests to add anonymous field
 	const originalFetch = window.fetch;
-	window.fetch = function(url, options) {
+	window.fetch = function (url, options) {
 		if (url.includes('/api/v3/topics') && options && options.method === 'POST') {
 			const form = $('.composer:visible form').first();
 			if (form.length) {
