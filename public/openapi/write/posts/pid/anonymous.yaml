@@ -1,0 +1,54 @@
+put:
+  tags:
+    - posts
+  summary: set anonymous flag for a post
+  description: This operation sets the anonymous flag for a post
+  parameters:
+    - in: path
+      name: pid
+      schema:
+        type: string
+      required: true
+      description: a valid post id
+      example: 1
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            anonymous:
+              type: number
+              description: Anonymous flag (1 for anonymous, 0 for not anonymous)
+              example: 1
+          required:
+            - anonymous
+  responses:
+    '200':
+      description: Anonymous flag successfully set
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                $ref: ../../../components/schemas/Status.yaml#/Status
+              response:
+                type: object
+                properties:
+                  anonymous:
+                    type: number
+                    description: The new anonymous flag value
+    '400':
+      description: Bad request - invalid data
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                $ref: ../../../components/schemas/Status.yaml#/Status
+              response:
+                type: string
+                description: Error message

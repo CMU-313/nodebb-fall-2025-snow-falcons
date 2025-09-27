@@ -202,6 +202,8 @@ paths:
     $ref: 'write/posts/pid/diffs/timestamp.yaml'
   /posts/{pid}/replies:
     $ref: 'write/posts/pid/replies.yaml'
+  /posts/{pid}/anonymous:
+    $ref: 'write/posts/pid/anonymous.yaml'
   /posts/queue/{id}:
     $ref: 'write/posts/queue/id.yaml'
   /posts/queue/{id}/notify:

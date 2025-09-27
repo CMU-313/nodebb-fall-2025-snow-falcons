@@ -48,7 +48,12 @@ exports.post = async function (req, res) {
 		content: body.content,
 		handle: body.handle,
 		fromQueue: false,
+		//this adds an anonymous flag to all posts
+		//1: anonymous
+		//0: not anonymous
+		anonymous: body.anonymous ? 1 : 0,
 	};
+	
 	req.body.noscript = 'true';
 
 	if (!data.content) {

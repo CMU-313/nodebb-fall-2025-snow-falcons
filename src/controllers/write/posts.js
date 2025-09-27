@@ -84,6 +84,18 @@ Posts.edit = async (req, res) => {
 	helpers.formatApiResponse(200, res, editResult);
 };
 
+//new Post setAnonymous method
+Posts.setAnonymous = async (req, res) => {
+	//calls ANOTHER setAnonymous function 
+	//that ACTUALLY changes the state of the "anonymous" flag
+	const result = await api.posts.setAnonymous(req, {
+		pid: req.params.pid,
+		anonymous: req.body.anonymous,
+	});
+	//takes the result of the push and sends it back to as JSON
+	helpers.formatApiResponse(200, res, result);
+};
+
 Posts.purge = async (req, res) => {
 	await api.posts.purge(req, { pid: req.params.pid });
 	helpers.formatApiResponse(200, res);
