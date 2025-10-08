@@ -29,6 +29,7 @@ module.exports = function (app, name, middleware, controllers) {
 
 	helpers.setupAdminPageRoute(app, `/${name}/manage/groups`, middlewares, controllers.admin.groups.list);
 	helpers.setupAdminPageRoute(app, `/${name}/manage/groups/:slug`, middlewares, controllers.admin.groups.get);
+	helpers.setupAdminPageRoute(app, `/${name}/manage/user-roles`, middlewares, controllers.admin.userRoles.get);
 
 	helpers.setupAdminPageRoute(app, `/${name}/manage/uploads`, middlewares, controllers.admin.uploads.get);
 	helpers.setupAdminPageRoute(app, `/${name}/manage/digest`, middlewares, controllers.admin.digest.get);

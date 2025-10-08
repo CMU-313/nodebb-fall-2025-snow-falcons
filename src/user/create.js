@@ -118,6 +118,10 @@ module.exports = function (User) {
 		if (userNameChanged) {
 			await User.notifications.sendNameChangeNotification(userData.uid, userData.username);
 		}
+
+		const defaultRole = isFirstUser ? 'Admin' : (await groups.getUserGroups([userData.uid]))[0]?.includes('administrators') ? 'Admin' : 'Student';
+		await db.setObjectField(`user:${userData.uid}`, 'userRole', defaultRole);
+
 		plugins.hooks.fire('action:user.create', { user: userData, data: data });
 		return userData.uid;
 	}
