@@ -13,7 +13,7 @@
 				<a class="d-inline-block text-decoration-none avatar-tooltip" title="{./user.displayname}" href="{{{ if ./user.userslug }}}{config.relative_path}/user/{./user.userslug}{{{ else }}}#{{{ end }}}">
 					{buildAvatar(./user, "40px", true)}
 				</a>
-				{{{ if ./user.userRole }}}
+				{{{ if (./user.userRole && config.userRoleTagsEnabled) }}}
 				<div class="d-flex justify-content-center mt-1">
 					<span class="badge text-bg-info text-xs">{./user.userRole}</span>
 				</div>

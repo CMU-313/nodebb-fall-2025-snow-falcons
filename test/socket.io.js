@@ -147,6 +147,38 @@ describe('socket.io', () => {
 		});
 	});
 
+		describe('user role tags toggle', () => {
+		let roleTargetUid;
+
+		before(async () => {
+			roleTargetUid = await user.create({ username: 'role-target', password: 'pass' });
+		});
+
+		after(() => {
+			meta.config.userRoleTagsEnabled = '1';
+		});
+
+		it('should allow assigning roles when tagging is enabled', (done) => {
+			meta.config.userRoleTagsEnabled = '1';
+			socketAdmin.userRoles.assignRole({ uid: adminUid }, { uid: roleTargetUid, role: 'Student' }, (err, result) => {
+				assert.ifError(err);
+				assert(result);
+				assert.strictEqual(result.success, true);
+				done();
+			});
+		});
+
+		it('should block assigning roles when tagging is disabled', (done) => {
+			meta.config.userRoleTagsEnabled = '0';
+			socketAdmin.userRoles.assignRole({ uid: adminUid }, { uid: roleTargetUid, role: 'Student' }, (err) => {
+				assert(err);
+				assert.strictEqual(err.message, '[[error:user-role-tags-disabled]]');
+				done();
+			});
+		});
+	});
+
+
 	describe('user create/delete', () => {
 		let uid;
 		const apiUsers = require('../src/api/users');

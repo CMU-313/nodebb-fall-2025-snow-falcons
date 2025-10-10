@@ -2,7 +2,14 @@
 const user = require('../../user');
 const privileges = require('../../privileges');
 const db = require('../../database');
+const meta = require('../../meta');
 const UserRoles = {};
+
+function ensureTaggingEnabled() {
+	if (String(meta.config.userRoleTagsEnabled ?? '1') !== '1') {
+		throw new Error('[[error:user-role-tags-disabled]]');
+	}
+}
 async function requireAdmin(socket) {
 	const isAdmin = await privileges.users.isAdministrator(socket.uid);
 	if (!isAdmin) throw new Error('[[error:no-privileges]]');
@@ -13,6 +20,7 @@ async function getRoles() {
 }
 UserRoles.assignRole = async function (socket, { uid, role }) {
 	await requireAdmin(socket);
+	ensureTaggingEnabled();
 	const validRoles = ['', ...await getRoles()];
 	if (!validRoles.includes(role)) throw new Error('[[error:invalid-role]]');
 	const [isTargetAdmin, isTargetGlobalMod] = await Promise.all([
@@ -29,6 +37,7 @@ UserRoles.getRoles = async function (socket) {
 };
 UserRoles.createRole = async function (socket, { roleName }) {
 	await requireAdmin(socket);
+	ensureTaggingEnabled();
 	if (!roleName?.trim()) throw new Error('[[error:invalid-role-name]]');
 	const userRoleField = await db.getObject('user-custom-field:userRole');
 	const currentRoles = (userRoleField['select-options'] || 'Student\nTA').split('\n');
@@ -41,6 +50,7 @@ UserRoles.createRole = async function (socket, { roleName }) {
 };
 UserRoles.deleteRole = async function (socket, { roleName }) {
 	await requireAdmin(socket);
+	ensureTaggingEnabled();
 	if (!roleName?.trim()) throw new Error('[[error:invalid-role-name]]');
 	if (roleName.trim() === 'Student') throw new Error('[[error:cannot-delete-default-role]]');
 	const userRoleField = await db.getObject('user-custom-field:userRole');

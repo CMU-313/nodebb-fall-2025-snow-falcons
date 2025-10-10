@@ -9,7 +9,7 @@
             <div class="post-author d-flex align-items-center gap-1">
                 <a class="lh-1 text-decoration-none" href="{config.relative_path}/user/{./user.userslug}">{buildAvatar(./user, "16px", true, "not-responsive")}</a>
                 <a class="lh-1 fw-semibold" href="{config.relative_path}/user/{./user.userslug}">{../user.displayname}</a>
-                {{{ if ./user.userRole }}}<span class="badge text-bg-info ms-1">{./user.userRole}</span>{{{ end }}}
+                {{{ if (./user.userRole && config.userRoleTagsEnabled) }}}<span class="badge text-bg-info ms-1">{./user.userRole}</span>{{{ end }}}
             </div>
             <span class="timeago text-muted lh-1" title="{./timestampISO}"></span>
         </div>

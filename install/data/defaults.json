@@ -36,6 +36,7 @@
     "maximumTagsPerTopic": 5,
     "minimumTagLength": 3,
     "maximumTagLength": 15,
+    "userRoleTagsEnabled": 1,
     "undoTimeout": 10000,
     "allowTopicsThumbnail": 1,
     "registrationType": "normal",
