@@ -1,0 +1,9 @@
+{
+	"user-role-tags-global": "User Role Tags (Global)",
+	"enable-user-role-tags": "Enable role badges and editing",
+	"enable-user-role-tags-help": "Toggle role tags on or off without removing existing assignments.",
+	"roles-disabled-warning": "Role tagging is disabled. Re-enable above to edit roles or show badges.",
+	"user-role-tags-saved": "Saved User Role Tags setting.",
+	"user-role-tags-save-failed": "Failed to save the User Role Tags setting.",
+	"user-role-tags-load-failed": "Failed to load the current User Role Tags setting."
+}

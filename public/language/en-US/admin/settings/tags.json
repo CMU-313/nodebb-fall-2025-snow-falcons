@@ -9,5 +9,8 @@
     "min-length": "Minimum Tag Length",
     "max-length": "Maximum Tag Length",
     "related-topics": "Related Topics",
-    "max-related-topics": "Maximum related topics to display (if supported by theme)"
+    "max-related-topics": "Maximum related topics to display (if supported by theme)",
+    "user-role-tags": "User Role Tags (Global)",
+    "enable-user-role-tags": "Enable role badges and editing",
+    "enable-user-role-tags-help": "Toggle role tags on or off without removing existing assignments."
 }
