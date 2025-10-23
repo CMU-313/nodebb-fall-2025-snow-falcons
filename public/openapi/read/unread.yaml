@@ -107,6 +107,10 @@ get:
                                     `icon:text` for the user's auto-generated
                                     icon
                                   example: "#f44336"
+                                userRole:
+                                  type: string
+                                  description: The user's role (e.g., Student, TA, Admin)
+                                  nullable: true
                                 banned_until_readable:
                                   type: string
                               required:
@@ -169,6 +173,10 @@ get:
                                         `icon:text` for the user's
                                         auto-generated icon
                                       example: "#f44336"
+                                    userRole:
+                                      type: string
+                                      description: The user's role (e.g., Student, TA, Admin)
+                                      nullable: true
                                 index:
                                   type: number
                             tags:

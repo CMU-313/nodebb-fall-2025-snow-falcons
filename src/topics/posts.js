@@ -153,6 +153,8 @@ module.exports = function (Topics) {
 				// Add user role information for display
 				if (postObj.user) {
 					postObj.user.userRole = postObj.user.userRole || '';
+				} else if (postObj.uid) {
+					postObj.user = { userRole: '' };
 				}
 			}
 		});
