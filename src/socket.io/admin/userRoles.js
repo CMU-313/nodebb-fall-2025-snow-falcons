@@ -66,7 +66,7 @@ UserRoles.deleteRole = async function (socket, { roleName }) {
 		if (userRole === roleName.trim()) {
 			const isUserAdmin = await privileges.users.isAdministrator(uid);
 			await user.setUserField(uid, 'userRole', isUserAdmin ? 'Admin' : 'Student');
-			updatedUserCount++;
+			updatedUserCount += 1;
 		}
 	}
 	await user.reloadCustomFieldWhitelist();
