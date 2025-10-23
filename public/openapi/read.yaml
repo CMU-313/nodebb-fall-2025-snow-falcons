@@ -146,6 +146,8 @@ paths:
     $ref: 'read/admin/manage/uploads.yaml'
   /api/admin/manage/digest:
     $ref: 'read/admin/manage/digest.yaml'
+  /api/admin/manage/user-roles:
+    $ref: 'read/admin/manage/user-roles.yaml'
   "/api/admin/appearance/themes":
     $ref: 'read/admin/appearance/themes.yaml'
   "/api/admin/appearance/skins":

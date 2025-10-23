@@ -108,6 +108,10 @@ Topics.getTopicsByTids = async function (tids, options) {
 			if (!userSettings[idx].showfullname) {
 				userObj.fullname = undefined;
 			}
+			// Ensure userRole field is always present
+			if (userObj && !userObj.hasOwnProperty('userRole')) {
+				userObj.userRole = '';
+			}
 		});
 
 		return {

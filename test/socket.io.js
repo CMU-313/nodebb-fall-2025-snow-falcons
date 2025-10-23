@@ -147,11 +147,11 @@ describe('socket.io', () => {
 		});
 	});
 
-		describe('user role tags toggle', () => {
+	describe('user role tags toggle', () => {
 		let roleTargetUid;
 
 		before(async () => {
-			roleTargetUid = await user.create({ username: 'role-target', password: 'pass' });
+			roleTargetUid = await user.create({ username: 'role-target', password: 'password123' });
 		});
 
 		after(() => {
