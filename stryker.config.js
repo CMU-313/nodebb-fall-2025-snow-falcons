@@ -1,5 +1,3 @@
-// @ts-check
-/** @type {import('@stryker-mutator/api/core').PartialStrykerOptions} */
 const config = {
   // ✅ Mutate specific files (you can expand this list)
   mutate: [
@@ -47,4 +45,4 @@ const config = {
   logLevel: 'info'
 };
 
-export default config;
+module.exports = config;
