@@ -1,0 +1,106 @@
+FAIL .stryker-tmp/sandbox-1pPNMJ/mutation-tests/topics.test.js
+  ● Test suite failed to run
+
+    Cannot find module '../public/src/modules/translator.common' from '.stryker-tmp/sandbox-1pPNMJ/src/translator.js'
+
+    Require stack:
+      .stryker-tmp/sandbox-1pPNMJ/src/translator.js
+      .stryker-tmp/sandbox-1pPNMJ/src/topics/data.js
+      .stryker-tmp/sandbox-1pPNMJ/src/topics/index.js
+      .stryker-tmp/sandbox-1pPNMJ/mutation-tests/topics.test.js
+
+      10 | }
+      11 |
+    > 12 | module.exports = require('../public/src/modules/translator.common')(require('./utils'), (lang, namespace) => {
+         |                  ^
+      13 | 	const languages = require('./languages');
+      14 | 	return languages.get(lang, namespace);
+      15 | }, warn);
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.require (.stryker-tmp/sandbox-1pPNMJ/src/translator.js:12:18)
+      at Object.require (.stryker-tmp/sandbox-1pPNMJ/src/topics/data.js:9:20)
+      at Object.require (.stryker-tmp/sandbox-1pPNMJ/src/topics/index.js:63:1)
+      at Object.require (.stryker-tmp/sandbox-1pPNMJ/mutation-tests/topics.test.js:71:16)
+
+PASS .stryker-tmp/sandbox-XXcII0/mutation-tests/socketio.test.js
+PASS mutation-tests/socketio.test.js
+FAIL .stryker-tmp/sandbox-dkpKKb/mutation-tests/topics.test.js
+  ● Test suite failed to run
+
+    Cannot find module '../public/src/utils.common' from '.stryker-tmp/sandbox-dkpKKb/src/utils.js'
+
+    Require stack:
+      .stryker-tmp/sandbox-dkpKKb/src/utils.js
+      .stryker-tmp/sandbox-dkpKKb/src/topics/index.js
+      .stryker-tmp/sandbox-dkpKKb/mutation-tests/topics.test.js
+
+      14 | 	return (diff[0] * 1e3) + (diff[1] / 1e6);
+      15 | };
+    > 16 | const utils = { ...require('../public/src/utils.common') };
+         |                    ^
+      17 |
+      18 | utils.getLanguage = function () {
+      19 | 	const meta = require('./meta');
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/utils.js:16:20)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/topics/index.js:54:15)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/mutation-tests/topics.test.js:68:16)
+
+PASS .stryker-tmp/sandbox-1pPNMJ/mutation-tests/socketio.test.js
+FAIL .stryker-tmp/sandbox-XXcII0/mutation-tests/topics.test.js
+  ● Test suite failed to run
+
+    Cannot find module '../public/src/modules/slugify' from '.stryker-tmp/sandbox-XXcII0/src/slugify.js'
+
+    Require stack:
+      .stryker-tmp/sandbox-XXcII0/src/slugify.js
+      .stryker-tmp/sandbox-XXcII0/src/topics/create.js
+      .stryker-tmp/sandbox-XXcII0/src/topics/index.js
+      .stryker-tmp/sandbox-XXcII0/mutation-tests/topics.test.js
+
+      2 | 'use strict';
+      3 |
+    > 4 | module.exports = require('../public/src/modules/slugify');
+        |                  ^
+      5 |
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.require (.stryker-tmp/sandbox-XXcII0/src/slugify.js:4:18)
+      at Object.require (.stryker-tmp/sandbox-XXcII0/src/topics/create.js:10:17)
+      at Object.require (.stryker-tmp/sandbox-XXcII0/src/topics/index.js:64:1)
+      at Object.require (.stryker-tmp/sandbox-XXcII0/mutation-tests/topics.test.js:72:16)
+
+FAIL .stryker-tmp/sandbox-dkpKKb/mutation-tests/socketio.test.js
+  ● Test suite failed to run
+
+    Cannot find module '../public/src/modules/slugify' from '.stryker-tmp/sandbox-dkpKKb/src/slugify.js'
+
+    Require stack:
+      .stryker-tmp/sandbox-dkpKKb/src/slugify.js
+      .stryker-tmp/sandbox-dkpKKb/src/file.js
+      .stryker-tmp/sandbox-dkpKKb/src/logger.js
+      .stryker-tmp/sandbox-dkpKKb/src/socket.io/index.js
+      .stryker-tmp/sandbox-dkpKKb/mutation-tests/socketio.test.js
+
+      2 | 'use strict';
+      3 |
+    > 4 | module.exports = require('../public/src/modules/slugify');
+        |                  ^
+      5 |
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:863:11)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/slugify.js:4:18)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/file.js:13:17)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/logger.js:14:14)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/src/socket.io/index.js:59:16)
+      at Object.require (.stryker-tmp/sandbox-dkpKKb/mutation-tests/socketio.test.js:82:18)
+
+PASS mutation-tests/topics.test.js
+
+Test Suites: 4 failed, 4 passed, 8 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        2.875 s
+Ran all test suites.
