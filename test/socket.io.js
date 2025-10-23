@@ -147,7 +147,7 @@ describe('socket.io', () => {
 		});
 	});
 
-		describe('user role tags toggle', () => {
+	describe('user role tags toggle', () => {
 		let roleTargetUid;
 
 		before(async () => {
