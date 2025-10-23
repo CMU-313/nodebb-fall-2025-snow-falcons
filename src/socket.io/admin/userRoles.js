@@ -61,14 +61,16 @@ UserRoles.deleteRole = async function (socket, { roleName }) {
 	await db.setObject('user-custom-field:userRole', userRoleField);
 	const allUids = await db.getSortedSetRange('users:joindate', 0, -1);
 	let updatedUserCount = 0;
+	/* eslint-disable no-await-in-loop */
 	for (const uid of allUids) {
 		const userRole = await user.getUserField(uid, 'userRole');
 		if (userRole === roleName.trim()) {
 			const isUserAdmin = await privileges.users.isAdministrator(uid);
 			await user.setUserField(uid, 'userRole', isUserAdmin ? 'Admin' : 'Student');
-			updatedUserCount++;
+			updatedUserCount += 1;
 		}
 	}
+	/* eslint-enable no-await-in-loop */
 	await user.reloadCustomFieldWhitelist();
 	return { success: true, roles: updatedRoles, updatedUsers: updatedUserCount };
 };
