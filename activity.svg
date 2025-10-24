@@ -1,0 +1,1257 @@
+<svg height="830" width="970" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect fill="#CCE4CC" height="99.5%" rx="4.5" stroke="#003D00" width="99.5%" x="0.5" y="0.5"/>
+<defs>
+<image height="100" id="batboy808" width="100" xlink:href="data:image/png;base64,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"/>
+<image height="100" id="baoqing guo" width="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAJYCAIAAAAxBA+LAAAaMElEQVR4Ae3AA6AkWZbG8f937o3IzKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1a/u7u5y1VVXXXXVVf9PUbnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+oXHXVVVddddX/X1Suuuqqq6666v8vKlddddVVV131/xeVq6666qqrrvr/i8pVV1111VVX/f9F5aqrrrrqqqv+/6Jy1VVXXXXVVf9/Ubnqqquuuuqq/7+o/I9092d+OlddddVVV/3fcv3nfj7/41C56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/L7S7u8tV/5vd/ZmfzlUvmus/9/O56kVz92d+Ole9aK7/3M/nqv/FqFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlf+R7v7MT+eqF831n/v5XPWiufszP52rXjTXf+7nc9WL5u7P/HSuetFc/7mfz/84VK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylX/y939mZ/OVVf9R7v7Mz+dq676f4HKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56n+56z/387nqRXP3Z346V71orv/cz+eqF83dn/npXPW/GJWrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/onLVVVddddVV/39Rueqqq6666qr/v6hcddVVV1111f9fVK666qqrrrrq/y8qV1111VVXXfX/F5Wrrrrqqquu+v+LylVXXXXVVVf9/0Xlqquuuuqqq/7/Qru7u1x11VVXXXXV/1NUrrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/LypXXXXVVVdd9f8Xlauuuuqqq676/4vKVVddddVVV/3/ReWqq6666qqr/v+ictVVV1111VX/f1G56qqrrrrqqv+/qFx11VVXXXXV/19Urrrqqquuuur/L/4RklotjU1Q1TYAAAAASUVORK5CYII="/>
+<image height="100" id="axue3" width="100" xlink:href="data:image/png;base64,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"/>
+<image height="100" id="jbaer2022" width="100" xlink:href="data:image/png;base64,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"/>
+<image height="100" id="itssunnyy" width="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAGkCAIAAADxLsZiAAAF40lEQVR4nOzX0Y2jMABF0d0V35RFS9RAS1SFqGA/poFRJmMnuec04CclvjLLdV1/AD7dv9kDAEYQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IGEZdtJ53MPOGmbb19kTaHGPHuZlBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJCyzB/BCzuOePeH5tn2dPYGXMC52/nPwc+7Rw3zGAgliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAwjLspPO4h501zLavsyfQ4h49bFzseH3azQfzGQskiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQnL7AHv7Tzu2ROAb/GyAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSBA7IEHsgASxAxLEDkgQOyBB7IAEsQMSxA5IEDsgQeyABLEDEsQOSFhmD3hv277OnvBM53HPnvB8fiO+eNkBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJf6/rmr0B4Nd52QEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQliBySIHZAgdkCC2AEJYgckiB2QIHZAgtgBCWIHJIgdkCB2QILYAQn/AwAA//8lkSKOFIASlQAAAABJRU5ErkJggg=="/>
+</defs>
+<g transform="translate(0, 30)">
+<g transform="translate(25, 10)">
+<text class="header">
+Project 2A (2025-09-08–2025-09-15)
+
+</text>
+</g>
+<g transform="translate(0, 25)">
+<g transform="translate(0, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/axue3">
+<text class="stat bold">
+axue3
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#axue3"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=axue3&amp;amp;since=2025-09-08T00:00:00+00:00&amp;amp;until=2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aaxue3+type%3Aissue+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+4
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aaxue3+type%3Apr+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(190, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/jbaer2022">
+<text class="stat bold">
+jbaer2022
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#jbaer2022"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=jbaer2022&amp;amp;since=2025-09-08T00:00:00+00:00&amp;amp;until=2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Ajbaer2022+type%3Aissue+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+4
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Ajbaer2022+type%3Apr+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(380, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/itssunnyy">
+<text class="stat bold">
+itssunnyy
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#itssunnyy"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=itssunnyy&amp;amp;since=2025-09-08T00:00:00+00:00&amp;amp;until=2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aitssunnyy+type%3Aissue+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+6
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aitssunnyy+type%3Apr+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(570, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/batboy808">
+<text class="stat bold">
+batboy808
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#batboy808"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=batboy808&amp;amp;since=2025-09-08T00:00:00+00:00&amp;amp;until=2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Abatboy808+type%3Aissue+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+8
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Abatboy808+type%3Apr+created%3A2025-09-08T00:00:00+00:00..2025-09-15T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+2
+</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0, 230)">
+<g transform="translate(25, 10)">
+<text class="header">
+Project 2B (2025-09-16–2025-09-26)
+
+</text>
+</g>
+<g transform="translate(0, 25)">
+<g transform="translate(0, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/itssunnyy">
+<text class="stat bold">
+itssunnyy
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#itssunnyy"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=itssunnyy&amp;amp;since=2025-09-16T00:00:00+00:00&amp;amp;until=2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aitssunnyy+type%3Aissue+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aitssunnyy+type%3Apr+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(190, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/jbaer2022">
+<text class="stat bold">
+jbaer2022
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#jbaer2022"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=jbaer2022&amp;amp;since=2025-09-16T00:00:00+00:00&amp;amp;until=2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Ajbaer2022+type%3Aissue+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Ajbaer2022+type%3Apr+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(380, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/batboy808">
+<text class="stat bold">
+batboy808
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#batboy808"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=batboy808&amp;amp;since=2025-09-16T00:00:00+00:00&amp;amp;until=2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Abatboy808+type%3Aissue+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Abatboy808+type%3Apr+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+3
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(570, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/axue3">
+<text class="stat bold">
+axue3
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#axue3"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=axue3&amp;amp;since=2025-09-16T00:00:00+00:00&amp;amp;until=2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aaxue3+type%3Aissue+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aaxue3+type%3Apr+created%3A2025-09-16T00:00:00+00:00..2025-09-26T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0, 430)">
+<g transform="translate(25, 10)">
+<text class="header">
+Project 2C (2025-09-27–2025-10-10)
+
+</text>
+</g>
+<g transform="translate(0, 25)">
+<g transform="translate(0, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/batboy808">
+<text class="stat bold">
+batboy808
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#batboy808"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=batboy808&amp;amp;since=2025-09-27T00:00:00+00:00&amp;amp;until=2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+3
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+203
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Abatboy808+type%3Aissue+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Abatboy808+type%3Apr+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+3
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(190, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/axue3">
+<text class="stat bold">
+axue3
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#axue3"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=axue3&amp;amp;since=2025-09-27T00:00:00+00:00&amp;amp;until=2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+2
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+196
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+20
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aaxue3+type%3Aissue+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aaxue3+type%3Apr+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(380, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/baoqing guo">
+<text class="stat bold">
+baoqing guo
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#baoqing guo"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=baoqing guo&amp;amp;since=2025-09-27T00:00:00+00:00&amp;amp;until=2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+155
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+6
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Abaoqing guo+type%3Aissue+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Abaoqing guo+type%3Apr+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(570, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/jbaer2022">
+<text class="stat bold">
+jbaer2022
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#jbaer2022"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=jbaer2022&amp;amp;since=2025-09-27T00:00:00+00:00&amp;amp;until=2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Ajbaer2022+type%3Aissue+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Ajbaer2022+type%3Apr+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(760, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/itssunnyy">
+<text class="stat bold">
+itssunnyy
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#itssunnyy"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=itssunnyy&amp;amp;since=2025-09-27T00:00:00+00:00&amp;amp;until=2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aitssunnyy+type%3Aissue+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aitssunnyy+type%3Apr+created%3A2025-09-27T00:00:00+00:00..2025-10-10T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<g transform="translate(0, 630)">
+<g transform="translate(25, 10)">
+<text class="header">
+Project 3 (2025-10-11–2025-10-28)
+
+</text>
+</g>
+<g transform="translate(0, 25)">
+<g transform="translate(0, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/batboy808">
+<text class="stat bold">
+batboy808
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#batboy808"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=batboy808&amp;amp;since=2025-10-11T00:00:00+00:00&amp;amp;until=2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+4
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+39
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+2
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Abatboy808+type%3Aissue+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Abatboy808+type%3Apr+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(190, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/jbaer2022">
+<text class="stat bold">
+jbaer2022
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#jbaer2022"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=jbaer2022&amp;amp;since=2025-10-11T00:00:00+00:00&amp;amp;until=2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Ajbaer2022+type%3Aissue+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Ajbaer2022+type%3Apr+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(380, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/axue3">
+<text class="stat bold">
+axue3
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#axue3"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=axue3&amp;amp;since=2025-10-11T00:00:00+00:00&amp;amp;until=2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aaxue3+type%3Aissue+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aaxue3+type%3Apr+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+</g>
+</g>
+<g transform="translate(570, 0)">
+<g transform="translate(25, 20)">
+<g>
+<a xlink:href="https://github.com/itssunnyy">
+<text class="stat bold">
+itssunnyy
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<use xlink:href="#itssunnyy"/>
+</g>
+</g>
+<g transform="translate(140, 25)">
+<g transform="translate(0, 0)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/commits?author=itssunnyy&amp;amp;since=2025-10-11T00:00:00+00:00&amp;amp;until=2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 20)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 40)">
+<svg class="icon" height="15" viewBox="0 0 25 25" width="15" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10h24v4h-24z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</g>
+<g transform="translate(0, 60)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/issues?q=author%3Aitssunnyy+type%3Aissue+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+0
+</text>
+</a>
+</g>
+<g transform="translate(0, 80)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z" fill-rule="evenodd"/>
+</svg>
+<a xlink:href="https://github.com/CMU-313/nodebb-fall-2025-snow-falcons/pulls?q=author%3Aitssunnyy+type%3Apr+created%3A2025-10-11T00:00:00+00:00..2025-10-28T23:59:59+00:00">
+<text class="stat" x="25" y="12.5">
+2
+</text>
+</a>
+</g>
+<g transform="translate(0, 100)">
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" fill-rule="evenodd"/>
+</svg>
+<text class="stat" x="25" y="12.5">
+1
+</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+<style>
+
+.header {
+    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+    fill: #007A00;
+    animation: fadeInAnimation 0.8s ease-in-out forwards;
+}
+.stat {
+    font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #444;
+}
+.bold { font-weight: 700 }
+.icon {
+    fill: #003D00;
+    display: block;
+}
+
+</style>
+</svg>
