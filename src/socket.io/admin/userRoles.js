@@ -16,7 +16,7 @@ async function requireAdmin(socket) {
 }
 async function getRoles() {
 	const userRoleField = await db.getObject('user-custom-field:userRole');
-	return (userRoleField['select-options'] || 'Student\nTA').split('\n');
+	return ((userRoleField && userRoleField['select-options']) || 'Student\nTA').split('\n');
 }
 UserRoles.assignRole = async function (socket, { uid, role }) {
 	await requireAdmin(socket);
@@ -66,7 +66,7 @@ UserRoles.deleteRole = async function (socket, { roleName }) {
 		if (userRole === roleName.trim()) {
 			const isUserAdmin = await privileges.users.isAdministrator(uid);
 			await user.setUserField(uid, 'userRole', isUserAdmin ? 'Admin' : 'Student');
-			updatedUserCount++;
+			updatedUserCount += 1;
 		}
 	}
 	await user.reloadCustomFieldWhitelist();

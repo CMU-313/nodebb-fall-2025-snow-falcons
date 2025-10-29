@@ -1,0 +1,13 @@
+get:
+  tags:
+    - admin
+  summary: Get user roles management page
+  description: Returns the user roles management page data
+  responses:
+    "200":
+      description: User roles management page data
+      content:
+        application/json:
+          schema:
+            $ref: ../../../components/schemas/CommonProps.yaml#/CommonProps
+

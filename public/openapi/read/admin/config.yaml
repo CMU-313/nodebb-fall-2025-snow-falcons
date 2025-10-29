@@ -183,3 +183,6 @@ get:
                       type: string
                   version:
                     type: string
+              userRoleTagsEnabled:
+                type: boolean
+                description: Whether user role tags are enabled for display
