@@ -11,14 +11,9 @@ jobs:
   flow:
     name: Flow Type Check
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: nodebb-fall-2025-snow-falcons
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          path: nodebb-fall-2025-snow-falcons
 
       - name: Show workspace layout
         run: |
