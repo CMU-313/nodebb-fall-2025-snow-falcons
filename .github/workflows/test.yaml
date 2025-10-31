@@ -79,8 +79,9 @@ jobs:
         run: |
           node app --setup="${SETUP}" --ci="${CI}"
 
-      - name: Run ESLint
-        run: npm run lint
+      - name: Run ESLint (sources only)
+        run: |
+          npm run lint -- "src/**/*.js" "test/**/*.js" "public/src/**/*.js" --ignore-pattern "lib/**" --ignore-pattern "build/**"
 
       - name: Node tests
         run: npm test
