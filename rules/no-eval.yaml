@@ -1,0 +1,9 @@
+rules:
+  - id: no-eval
+    languages: [javascript, typescript]
+    pattern-either:
+      - pattern: eval(...)
+      - pattern: $X['eval'](...)
+      - pattern: new Function(...)
+    message: Avoid using eval()
+    severity: ERROR
