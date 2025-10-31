@@ -21,7 +21,7 @@ jobs:
 
       - name: Run Flow check
         run: |
-          npx flow-bin check --max-workers=2 || npx flow-bin status
+          npx -y flow-bin@^0.289.0 check --max-workers=2 || npx -y flow-bin@^0.289.0 status
 name: Flow CI
 
 on:
