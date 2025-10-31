@@ -15,15 +15,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show workspace layout
+        run: |
+          pwd
+          ls -la
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
+          if [ -d nodebb-fall-2025-snow-falcons ]; then
+            echo "Found nested repo dir:" && ls -la nodebb-fall-2025-snow-falcons
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci || npm install --no-audit --no-fund
+        run: |
+          if [ -f package.json ]; then
+            npm ci || npm install --no-audit --no-fund
+          elif [ -d nodebb-fall-2025-snow-falcons ] && [ -f nodebb-fall-2025-snow-falcons/package.json ]; then
+            cd nodebb-fall-2025-snow-falcons
+            npm ci || npm install --no-audit --no-fund
+          else
+            echo "package.json not found" && exit 254
+          fi
 
       - name: Run Flow
-        run: npx flow-bin check --max-workers=2 || npx flow-bin status
+        run: |
+          if [ -f package.json ]; then
+            npx flow-bin check --max-workers=2 || npx flow-bin status
+          else
+            cd nodebb-fall-2025-snow-falcons
+            npx flow-bin check --max-workers=2 || npx flow-bin status
+          fi
 
 
