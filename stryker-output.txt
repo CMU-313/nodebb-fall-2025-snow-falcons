@@ -1,0 +1,64 @@
+
+> nodebb@4.4.6 mutation-test
+> stryker run
+
+[33m00:11:27 (21869) WARN OptionsValidator[39m DEPRECATED. Use of "files" is deprecated, please use "ignorePatterns" instead (or remove "files" altogether will probably work as well). For now, rewriting them as ["**","!src/**/*.js","!mutation-tests/**/*.js","!package.json"]. See https://stryker-mutator.io/docs/stryker-js/configuration/#ignorepatterns-string
+[32m00:11:28 (21869) INFO ProjectReader[39m Found 2 of 572 file(s) to be mutated.
+[32m00:11:28 (21869) INFO Instrumenter[39m Instrumented 2 source file(s) with 619 mutant(s)
+[32m00:11:28 (21869) INFO ConcurrencyTokenProvider[39m Creating 11 test runner process(es).
+[32m00:11:29 (21869) INFO BroadcastReporter[39m Detected that current console does not support the "progress" reporter, downgrading to "progress-append-only" reporter
+[32m00:11:30 (21869) INFO DryRunExecutor[39m Starting initial test run (jest test runner with "off" coverage analysis). This may take a while.
+[91m00:11:32 (21869) ERROR DryRunExecutor[39m One or more tests resulted in an error:
+	MODULE_NOT_FOUND Cannot find module '../public/src/modules/slugify' from 'src/slugify.js'
+
+Require stack:
+  src/slugify.js
+  src/topics/create.js
+  src/topics/index.js
+  mutation-tests/topics.test.js
+ Error: Cannot find module '../public/src/modules/slugify' from 'src/slugify.js'
+
+Require stack:
+  src/slugify.js
+  src/topics/create.js
+  src/topics/index.js
+  mutation-tests/topics.test.js
+
+    at Resolver._throwModNotFoundError (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-resolve/build/index.js:863:11)
+    at Resolver.resolveModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-resolve/build/index.js:810:10)
+    at Resolver._getVirtualMockPath (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-resolve/build/index.js:1004:84)
+    at Resolver._getAbsolutePath (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-resolve/build/index.js:984:98)
+    at Resolver.getModuleID (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-resolve/build/index.js:949:31)
+    at Runtime._shouldMockCjs (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:1486:37)
+    at Runtime.requireModuleOrMock (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:961:16)
+    at Object.<anonymous> (/workspaces/nodebb-fall-2025-snow-falcons/.stryker-tmp/sandbox-XXcII0/src/slugify.js:4:18)
+    at Runtime._execModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:1268:24)
+    at Runtime._loadModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:944:12)
+    at Runtime.requireModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:832:12)
+    at Runtime.requireModuleOrMock (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:964:21)
+    at Object.<anonymous> (/workspaces/nodebb-fall-2025-snow-falcons/.stryker-tmp/sandbox-XXcII0/src/topics/create.js:10:17)
+    at Runtime._execModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:1268:24)
+    at Runtime._loadModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:944:12)
+    at Runtime.requireModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:832:12)
+    at Runtime.requireModuleOrMock (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:964:21)
+    at Object.<anonymous> (/workspaces/nodebb-fall-2025-snow-falcons/.stryker-tmp/sandbox-XXcII0/src/topics/index.js:64:1)
+    at Runtime._execModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:1268:24)
+    at Runtime._loadModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:944:12)
+    at Runtime.requireModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:832:12)
+    at Runtime.requireModuleOrMock (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:964:21)
+    at Object.<anonymous> (/workspaces/nodebb-fall-2025-snow-falcons/.stryker-tmp/sandbox-XXcII0/mutation-tests/topics.test.js:72:16)
+    at Runtime._execModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:1268:24)
+    at Runtime._loadModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:944:12)
+    at Runtime.requireModule (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runtime/build/index.js:832:12)
+    at jestAdapter (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-circus/build/runner.js:95:13)
+    at runTestInternal (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runner/build/index.js:275:16)
+    at runTest (/workspaces/nodebb-fall-2025-snow-falcons/node_modules/jest-runner/build/index.js:343:7)
+[91m00:11:32 (21869) ERROR Stryker[39m Unexpected error occurred while running Stryker Error: Something went wrong in the initial test run
+    at DryRunExecutor.validateResultCompleted (file:///workspaces/nodebb-fall-2025-snow-falcons/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:76:15)
+    at DryRunExecutor.executeDryRun (file:///workspaces/nodebb-fall-2025-snow-falcons/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:96:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async WorkItem.execute (file:///workspaces/nodebb-fall-2025-snow-falcons/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:32:28)
+    at async file:///workspaces/nodebb-fall-2025-snow-falcons/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:69:13
+[32m00:11:32 (21869) INFO Stryker[39m This might be a known problem with a solution documented in our troubleshooting guide.
+[32m00:11:32 (21869) INFO Stryker[39m You can find it at https://stryker-mutator.io/docs/stryker-js/troubleshooting/
+[32m00:11:32 (21869) INFO Stryker[39m Still having trouble figuring out what went wrong? Try `npx stryker run --fileLogLevel trace --logLevel debug` to get some more info.
