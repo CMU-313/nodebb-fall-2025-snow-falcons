@@ -96,7 +96,7 @@ Topics.getTopicsByTids = async function (tids, options) {
 
 		const [teasers, users, userSettings, categoriesData, guestHandles, thumbs] = await Promise.all([
 			Topics.getTeasers(topics, options),
-			user.getUsersFields(uids, ['uid', 'username', 'fullname', 'userslug', 'reputation', 'postcount', 'picture', 'signature', 'banned', 'status', 'userRole']),
+			user.getUsersFields(uids, ['uid', 'username', 'fullname', 'userslug', 'reputation', 'postcount', 'picture', 'signature', 'banned', 'status']),
 			loadShowfullnameSettings(),
 			categories.getCategoriesFields(cids, ['cid', 'name', 'slug', 'icon', 'backgroundImage', 'imageClass', 'bgColor', 'color', 'disabled']),
 			loadGuestHandles(),
@@ -107,10 +107,6 @@ Topics.getTopicsByTids = async function (tids, options) {
 			// Hide fullname if needed
 			if (!userSettings[idx].showfullname) {
 				userObj.fullname = undefined;
-			}
-			// Ensure userRole field is always present
-			if (userObj && !userObj.hasOwnProperty('userRole')) {
-				userObj.userRole = '';
 			}
 		});
 

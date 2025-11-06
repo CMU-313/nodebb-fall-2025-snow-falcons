@@ -45,7 +45,6 @@ module.exports = function (User) {
 		status: 'offline',
 		reputation: 0,
 		'email:confirmed': 0,
-		userRole: '',
 	};
 
 	let iconBackgrounds;

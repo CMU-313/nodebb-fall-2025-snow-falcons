@@ -31,9 +31,7 @@ pluginsController.get = async function (req, res) {
 			return plugin;
 		});
 
-	const upgrade = compatible
-		.filter(p => p.installed && p.outdated)
-		.map(p => ({ ...p, url: p.url || '' }));
+	const upgrade = compatible.filter(p => p.installed && p.outdated);
 	res.render('admin/extend/plugins', {
 		installed: installedPlugins,
 		installedCount: installedPlugins.length,

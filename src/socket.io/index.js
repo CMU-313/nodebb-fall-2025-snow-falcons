@@ -221,7 +221,7 @@ function requireModules() {
 	const modules = [
 		'admin', 'categories', 'groups', 'meta', 'modules',
 		'notifications', 'plugins', 'posts', 'topics', 'user',
-		'blacklist', 'uploads', 'admin/userRoles', 
+		'blacklist', 'uploads',
 	];
 
 	modules.forEach((module) => {

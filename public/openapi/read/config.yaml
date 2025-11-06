@@ -183,6 +183,3 @@ get:
                 properties:
                   probe:
                     type: number
-              userRoleTagsEnabled:
-                type: boolean
-                description: Whether user role tags are enabled for display

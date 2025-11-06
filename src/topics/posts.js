@@ -149,13 +149,6 @@ module.exports = function (Topics) {
 					postObj.user.username = validator.escape(String(postObj.handle));
 					postObj.user.displayname = postObj.user.username;
 				}
-
-				// Add user role information for display
-				if (postObj.user) {
-					postObj.user.userRole = postObj.user.userRole || '';
-				} else if (postObj.uid) {
-					postObj.user = { userRole: '' };
-				}
 			}
 		});
 

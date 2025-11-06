@@ -18,6 +18,10 @@ PostObject:
         For posts received via ActivityPub, it is the url of the original piece of content.
     content:
       type: string
+    isEnglish:
+      type: boolean
+    translatedContent:
+      type: string
     sourceContent:
       type: string
       nullable: true
@@ -73,19 +77,6 @@ PostObject:
             `icon:text` for the user's auto-generated
             icon
           example: "#f44336"
-        userRole:
-          type: string
-          description: The user's role (e.g., Student, TA, Admin)
-          nullable: true
-      required:
-        - uid
-        - username
-        - displayname
-        - userslug
-        - picture
-        - status
-        - icon:text
-        - icon:bgColor
     topic:
       type: object
       properties:
@@ -183,6 +174,10 @@ PostDataObject:
           description: A topic identifier
         content:
           type: string
+        isEnglish:
+          type: boolean
+        translatedContent:
+          type: string
         timestamp:
           type: number
         votes:
@@ -272,10 +267,6 @@ PostDataObject:
                 `icon:text` for the user's auto-generated
                 icon
               example: "#f44336"
-            userRole:
-              type: string
-              description: The user's role (e.g., Student, TA, Admin)
-              nullable: true
             lastonlineISO:
               type: string
             banned_until:
@@ -307,17 +298,6 @@ PostDataObject:
                   content:
                     type: string
                     description: HTML that is injected into `topic.tpl` of themes that support custom profile info
-          required:
-            - uid
-            - username
-            - displayname
-            - userslug
-            - reputation
-            - postcount
-            - picture
-            - status
-            - icon:text
-            - icon:bgColor
         editor:
           nullable: true
         bookmarked:
