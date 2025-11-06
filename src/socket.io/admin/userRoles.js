@@ -60,15 +60,17 @@ UserRoles.deleteRole = async function (socket, { roleName }) {
 	userRoleField['select-options'] = updatedRoles.join('\n');
 	await db.setObject('user-custom-field:userRole', userRoleField);
 	const allUids = await db.getSortedSetRange('users:joindate', 0, -1);
-	let updatedUserCount = 0;
-	for (const uid of allUids) {
+	const updatePromises = allUids.map(async (uid) => {
 		const userRole = await user.getUserField(uid, 'userRole');
 		if (userRole === roleName.trim()) {
 			const isUserAdmin = await privileges.users.isAdministrator(uid);
 			await user.setUserField(uid, 'userRole', isUserAdmin ? 'Admin' : 'Student');
-			updatedUserCount += 1;
+			return true;
 		}
-	}
+		return false;
+	});
+	const results = await Promise.all(updatePromises);
+	const updatedUserCount = results.filter(Boolean).length;
 	await user.reloadCustomFieldWhitelist();
 	return { success: true, roles: updatedRoles, updatedUsers: updatedUserCount };
 };
