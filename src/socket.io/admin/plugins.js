@@ -61,3 +61,4 @@ Plugins.upgrade = async function (socket, data) {
 	return await plugins.upgrade(data.id, data.version);
 };
 
+

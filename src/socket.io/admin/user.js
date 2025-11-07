@@ -183,3 +183,4 @@ User.saveCustomFields = async function (socket, fields) {
 	await user.reloadCustomFieldWhitelist();
 };
 
+

@@ -30,3 +30,4 @@ SocketCache.toggle = async function (socket, data) {
 	caches[data.name].enabled = data.enabled;
 };
 
+

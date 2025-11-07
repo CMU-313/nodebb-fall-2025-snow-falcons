@@ -9,3 +9,4 @@ SocketRewards.delete = async function (socket, data) {
 	await rewardsAdmin.delete(data);
 };
 
+

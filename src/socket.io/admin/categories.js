@@ -39,3 +39,4 @@ Categories.copyPrivilegesToAllCategories = async function (socket, data) {
 	await Promise.all(copyPromises);
 };
 
+

@@ -9,3 +9,4 @@ Widgets.set = async function (socket, data) {
 	await widgets.setAreas(data);
 };
 
+

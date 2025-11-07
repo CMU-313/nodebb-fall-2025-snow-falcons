@@ -19,3 +19,4 @@ Settings.clearSitemapCache = async function () {
 	require('../../sitemap').clearCache();
 };
 
+
