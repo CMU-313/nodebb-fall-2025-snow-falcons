@@ -78,3 +78,14 @@ test.sh
 
 # Stryker mutation testing
 .stryker-tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
