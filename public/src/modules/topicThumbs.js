@@ -64,7 +64,7 @@ define('topicThumbs', [
 								callback: () => {
 									Thumbs.upload(id).then(() => {
 										Thumbs.modal.open({ ...payload, modal });
-										require(['composer'], (composer) => {
+										app.require('composer').then((composer) => {
 											composer.updateThumbCount(id, $(`[component="composer"][data-uuid="${id}"]`));
 											resolve();
 										});
@@ -101,7 +101,7 @@ define('topicThumbs', [
 						path: path,
 					}).then(() => {
 						Thumbs.modal.open(payload);
-						require(['composer'], (composer) => {
+						app.require('composer').then((composer) => {
 							composer.updateThumbCount(uuid, $(`[component="composer"][data-uuid="${uuid}"]`));
 						});
 					}).catch(alerts.error);
