@@ -75,3 +75,6 @@ test.sh
 
 .docker/**
 !**/.gitkeep
+
+# Stryker mutation testing
+.stryker-tmp/

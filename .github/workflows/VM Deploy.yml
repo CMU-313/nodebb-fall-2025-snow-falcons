@@ -32,5 +32,6 @@ jobs:
           script: | 
             cd ${{ secrets.REPO_NAME }}
             git pull origin main
-            docker compose down
+            docker compose -f docker-compose-redis.yml down
+            docker compose -f docker-compose-redis.yml build translator
             docker compose -f docker-compose-redis.yml up --build -d

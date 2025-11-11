@@ -12,6 +12,10 @@ services:
       - nodebb-uploads:/usr/src/app/public/uploads
       - nodebb-config:/opt/config
       - ./install/docker/setup.json:/usr/src/app/setup.json
+    environment:
+      - TRANSLATOR_API_URL=http://translator:5000
+    depends_on:
+      - translator
 
   redis:
     image: redis:8.0.1-alpine
@@ -20,6 +24,28 @@ services:
     # command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"] # uncomment if you want to use snapshotting instead of AOF
     volumes:
       - redis-data:/data
+
+  translator:
+    build:
+      context: .
+      dockerfile: Dockerfile.translator
+    restart: unless-stopped
+    ports:
+      - '5000:5000'
+    environment:
+      - TRANSLATOR_PORT=5000
+      - OLLAMA_HOST=${OLLAMA_HOST:-http://host.docker.internal:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen3:0.6b}
+    # If Ollama is running on the host, use host.docker.internal
+    # If Ollama is in Docker, create a separate service or use network_mode: host
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
 
 volumes:
   redis-data:
