@@ -149,6 +149,31 @@ module.exports = function (Topics) {
 					postObj.user.username = validator.escape(String(postObj.handle));
 					postObj.user.displayname = postObj.user.username;
 				}
+
+				//if anonymous
+				if (postObj.anonymous) {
+					//mark post as needing to be hidden for users
+					//this avoics having to recheck per post
+					postObj._anonymous = 1;
+				}
+			}
+		});
+
+		//checks if the viewer is instructor
+		const viewerIsInstructor = await user.isPrivileged(uid); // admin/global-mod/mod
+
+		postData.forEach((postObj) => {
+			//if its a post, anonymous, not the instructor, and not the author
+			if (postObj && postObj._anonymous && !viewerIsInstructor && !postObj.selfPost) {
+				//Masks identity for non-instructors and non-author
+				postObj.user = postObj.user || {};
+				postObj.user.uid = 0;
+				postObj.user.username = 'Anonymous';
+				postObj.user.displayname = 'Anonymous';
+				postObj.user.userslug = undefined;
+				//This part strips picture & groups too
+				postObj.user.picture = undefined;
+				postObj.user.selectedGroups = [];
 			}
 		});
 

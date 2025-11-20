@@ -64,6 +64,11 @@ topicsAPI.create = async function (caller, data) {
 	delete payload.tid;
 	payload.tags = payload.tags || [];
 	apiHelpers.setDefaultPostData(caller, payload);
+	
+	// Add anonymous field if present in the original data
+	if (data.anonymous !== undefined) {
+		payload.anonymous = data.anonymous ? 1 : 0;
+	}
 	const isScheduling = parseInt(data.timestamp, 10) > payload.timestamp;
 	if (isScheduling) {
 		if (await privileges.categories.can('topics:schedule', data.cid, caller.uid)) {
@@ -100,6 +105,11 @@ topicsAPI.reply = async function (caller, data) {
 	const payload = { ...data };
 	delete payload.pid;
 	apiHelpers.setDefaultPostData(caller, payload);
+	
+	// Add anonymous field if present in the original data
+	if (data.anonymous !== undefined) {
+		payload.anonymous = data.anonymous ? 1 : 0;
+	}
 
 	await meta.blacklist.test(caller.ip);
 	const shouldQueue = await posts.shouldQueue(caller.uid, payload);

@@ -172,6 +172,36 @@ postsAPI.edit = async function (caller, data) {
 	return returnData;
 };
 
+//Final setAnonymous function that ACTUALLY changes "anonymous" value
+postsAPI.setAnonymous = async function (caller, { pid, anonymous }) {
+	//make sure user is logged in
+	if (!caller.uid) {
+		throw new Error('[[error:not-logged-in]]');
+	}
+
+	//get post and make sure it exists and has a user attatched
+	const post = await posts.getPostFields(pid, ['uid', 'anonymous']);
+	if (!post || !post.uid) {
+		throw new Error('[[error:no-post]]');
+	}
+
+	//if youre neither the author nor instructor then you cant access the post
+	const isOwner = parseInt(caller.uid, 10) === parseInt(post.uid, 10);
+	const isInstructor = await user.isPrivileged(caller.uid);
+
+	if (!isOwner && !isInstructor) {
+		throw new Error('[[error:no-privileges]]');
+	}
+
+	//given the anonymous input, set the "anonymous" flag
+	const value = anonymous ? 1 : 0;
+	await posts.setPostField(pid, 'anonymous', value);
+	return {
+		pid,
+		anonymous: value,
+	};
+};
+
 postsAPI.delete = async function (caller, data) {
 	await deleteOrRestore(caller, data, {
 		command: 'delete',
